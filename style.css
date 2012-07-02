@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+/* NORMALIZER */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+/* BASE STYLES */
+body{}
+p{}
+h1{}
+a{}
+
+/* SPECIFIC STYLES */
+#wrapper{
+	width: 900px;
+	position: relative;
+	margin: 0 auto;
+	}
+
+#header{
+		height: 150px;
+		background-color: #ccc;
+		}
+
+					#content{}
+					#col1{
+						background-image: url("images/bgnd.png");
+						background-repeat: no-repeat;
+						width: 560px;
+						min-height: 750px;
+						float: right;
+						background-color: #666;
+						}
+					#col1 h1{
+						font-size: 26px;
+						padding: 150px 0px 0px 200px;
+						}
+					#col1 h2{
+						font-size: 14px;
+						padding: 0px 0px 0px 120px;
+						}
+					#col1 h3{
+						padding: 150px 0px 0px 220px;
+						}
+					#col1 h4{
+						padding: 0px 0px 0px 160px;
+						}
+					#col1 h5{
+						font-size: 14px;
+						color: #FFF;
+						padding: 90px 0px 0px 90px;
+						float: left;
+						}
+					#col1 h5 ul{
+							list-style-type: none;
+							}
+						#col1 h5 ul li a{
+							color: #FFF;
+							display: block;
+							text-decoration:none;
+							}
+					#col1 h6{
+						font-size: 13px;
+						color: #FFF;
+						float: right;
+						margin-right: 70px;
+						margin-top: 89px;
+						}
+						
+					#col1 h6 ul{
+							list-style-type: none;
+							}
+							
+						#col1 h6 ul li a{
+							color: #FFF;
+							display: block;
+							text-decoration:none;
+							}
+					#add{
+						margin-left: 120px;
+						}
+					#edit{
+						margin-left: 120px;
+						}
+					#col2{
+						background-image: url("images/note.png");
+						background-repeat: no-repeat;
+						width: 340px;
+						min-height: 750px;
+						float: left;
+						background-color: #FFCC99;
+						}
+					#col2 h2{
+						font-size: 20px;
+						padding: 140px 0px 0px 34px;
+						margin-right: 95px;
+						text-align: center;
+						}
+					#col2 p{
+						text-align: center;
+						padding: 20px 0px 0px 0px;
+						margin-right: 60px;
+						}
+					#form{
+						padding: 200px 0px 0px 110px;
+						}
+					.text{
+						margin-top: 25px;
+						margin-left: 120px;
+						border: 1px solid #000;
+						-webkit-border-radius: 20px;
+						-moz-border-radius: 20px;
+						border-radius: 20px;
+						}
+					.text2{
+						border: 1px solid #000;
+						postion: absolute;
+						}
+					#form2{
+						postion: relative;
+						}
+					.ent{
+						border: 1px solid #000;
+						}
+					.sub{
+						background-color: #FFF;
+						margin-left: 120px;
+						border: 1px solid #000;
+						-webkit-border-radius: 20px;
+						-moz-border-radius: 20px;
+						border-radius: 20px;
+						}
+					#form input{
+						background-color: #FFF;
+						border: 1px solid #000;
+						}
+					.entry{
+						margin-left: 110px;
+						}
+					.delete{
+						float: right;
+						margin-right: 80px;
+						}
+						
+					#form2{
+						padding: 30px 0px 0px 110px;
+						}
+					#form2 input{
+						background-color: #FFF;
+						border: 1px solid #000;
+						-webkit-border-radius: 20px;
+						-moz-border-radius: 20px;
+						border-radius: 20px;
+						}
+					
+#footer{
+		padding: 20px 0px 0px 0px;
+		text-align: center;
+		height: 30px;
+		background-color: #FFF;
+		}
+	
+/* GENERAL CLASSES */
+.clear{
+	clear: both !important;
+	float: none !important;
+	}
+	
+
+
